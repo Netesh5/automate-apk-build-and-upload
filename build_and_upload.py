@@ -10,7 +10,7 @@ from googleapiclient.http import MediaFileUpload
 # If modifying these SCOPES, delete the file token.pickle.
 SCOPES = ['https://www.googleapis.com/auth/drive.file']
 
-MAIN_FOLDER_ID = '1s9xg0m5rMKMhkwCN8EyLJRKsZ_ka13q0'  # Replace with your main Google Drive folder ID
+MAIN_FOLDER_ID = 'XXXXXXXXXXXXX'  # Replace with your main Google Drive folder ID
 
 def authenticate():
     """Authenticate the user and return the Drive API service."""
