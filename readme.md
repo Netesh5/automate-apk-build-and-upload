@@ -16,10 +16,9 @@ This script automates the process of building Flutter APKs for different flavors
 2. Create a new project.
 3. Enable the Google Drive API for your project.
 4. Create OAuth 2.0 credentials.
-5. Download the `credentials.json` file and place it in the root directory of your project.
+5. Download the `credentials.json` file and place it in the root directory of your flutter project.
 
 ### Step 2: Install Required Python Packages
-
 
 Install the required Python packages using `pip`:
 
@@ -30,6 +29,10 @@ pip3 install google-auth google-auth-oauthlib google-auth-httplib2 google-api-py
 
 ### Step 4: Update Script with Main Folder ID
 Replace the your_main_folder_id_here in the script with the actual ID of your main Google Drive folder where you want to upload the APKs.
+
+### Step 5: Place the Script
+1. Place build_and_upload.py and credentials.json file on root project of flutter application
+2. Run python3 build_and_upload.py on terminal to run the script
 
 ## Script Usage
 
