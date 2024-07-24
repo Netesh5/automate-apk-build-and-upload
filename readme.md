@@ -48,5 +48,5 @@ Replace the your_main_folder_id_here in the script with the actual ID of your ma
 
 ## Running the script
 ```
-python build_and_upload.py
+python3 build_and_upload.py
 ```
