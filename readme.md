@@ -36,7 +36,7 @@ Replace the your_main_folder_id_here in the script with the actual ID of your ma
 # The build_and_upload.py script performs the following tasks:
 
 1. Authenticates with Google Drive.
-2. Reads the build number from pubspec.yaml.
+2. Reads the Applicaiton name, version and build number from pubspec.yaml.
 3. Creates a subfolder in Google Drive for the build number if it doesn't exist.
 4. Builds APKs for specified Flutter flavors.
 5. Uploads the APKs to the appropriate subfolder in Google Drive.
